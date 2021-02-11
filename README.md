@@ -21,7 +21,7 @@ Alternatives like Scrapy and BeautifulSoup aren't able to interact with AJAX req
 # Installation
 
 First, make sure that you're using Python 3.
-
+### If using the python file:
 1. Clone or download this repository.
 2. Install virtualenv to set up a virtual environment if necessary with:
 
@@ -33,6 +33,14 @@ First, make sure that you're using Python 3.
    1. `python3 -m venv env`
    2. `source env/bin/activate`
 4. Run `pip3 install -r requirements.txt` inside this repo.
+
+### If using the jupyter notebook:
+1. followed the tutorial [here] (http://www.ds100.org/fa20/setup/#creating-your-environment) to install and set up conda 
+2. If you get an error saying "'conda' command wasn't found" troubleshooted with [this] (https://towardsdatascience.com/how-to-successfully-install-anaconda-on-a-mac-and-actually-get-it-to-work-53ce18025f97)
+3. activate the .yaml environment file included in this repository
+4. You're ready!
+
+## General setup
 5. Use [this](https://www.edureka.co/community/52315/how-to-setup-chrome-driver-with-selenium-on-macos) or [this](https://zwbetz.com/download-chromedriver-binary-and-add-to-your-path-for-automated-functional-testing/) tutorial to Install [Chromedriver](http://chromedriver.chromium.org/) in to your PATH.
 6. Go to the bottom of 'glassdoorScraper.py' and enter your glassdoor user name one line 426, replaceing the '' after 'username': in the JSON object, and enter your password in the quotes ('') after 'password': in the JSON object.
 7. If you are using the jupyter notebook enter your glassdoor account username and password in the same manner in cell 39. I HIGHLY recommend you make a dummy glassdoor account as you may be blocked.
